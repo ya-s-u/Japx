@@ -22,7 +22,7 @@ It works by transfering Dictionary to Dictionary, so you can use Codable, Unbox,
 
   s.requires_arc = true
   s.platform = :ios, :osx
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.10'
   s.swift_version = '5.0'
 
