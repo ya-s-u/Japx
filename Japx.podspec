@@ -65,7 +65,7 @@ It works by transfering Dictionary to Dictionary, so you can use Codable, Unbox,
   s.subspec 'Moya' do |sp|
     sp.source_files = 'Japx/Classes/Moya/**/*'
     sp.dependency 'Japx/Core'
-    sp.dependency 'Moya/RxSwift', '~> 14.0'
+    sp.dependency 'Moya/RxSwift', '14.0.0-beta.2'
   end
 
   s.subspec 'RxMoya' do |sp|
